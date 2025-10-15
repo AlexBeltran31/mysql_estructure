@@ -1,4 +1,5 @@
-CREATE DATABASE IF NOT EXISTS optica;
+DROP DATABASE IF EXISTS optica;
+CREATE DATABASE optica;
 USE optica;
 CREATE TABLE Supplier (
   supplier_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -101,3 +102,8 @@ INSERT INTO Sale (sale_date, quantity, total_price, customer_id, employee_id, gl
 VALUES
 ('2025-01-15', 1, 129.99, 1, 1, 1),
 ('2025-02-20', 2, 319.98, 2, 2, 2);
+
+USE optica;
+SHOW TABLES;
+SELECT * FROM Supplier;
+SELECT * FROM Customer;

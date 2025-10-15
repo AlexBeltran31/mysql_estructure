@@ -1,4 +1,4 @@
-CUL D'AMPOLLA - Optital Store Database
+CUL D'AMPOLLA - Optical Store Database
 This project contains the MySQL database desgn and implementation for an optical store that wants to digitize the management of its clientes, suppliers, employees and sales.
 
 DESCRIPTION.
